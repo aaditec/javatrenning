@@ -11,7 +11,7 @@ public class Decisionmaking {
         if (a < 5 ){
             System.out.println("Print A");
         }
-        else {
+        else if(a>=100) {
             System.out.println("Print B");
         }
         else if(a>30){
